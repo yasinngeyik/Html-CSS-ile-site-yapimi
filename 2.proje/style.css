@@ -1,0 +1,375 @@
+body{
+    margin: 0;
+    padding: 0;
+
+    font-size: 16px;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+a{
+  text-decoration: none;
+}
+
+    /* navbar */
+
+.resim{
+    width: auto;
+    height: 30px;
+    
+
+}
+
+#navbar{
+    background-color: #8d9bf4;
+}
+
+
+/* header */
+
+#anabaslik{
+    background-color:#8d9bf4;
+}
+.paragraf{
+    font-weight: 600;
+
+}
+#button{
+    border: 2px solid #040404;
+    border-radius: 16px;
+}
+#button:hover{
+
+background-color:#ffff;
+transition: 0.5s;
+}
+
+
+
+
+#söz{
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+  font-style: italic;
+
+}
+/* iletişim header */
+.iletişim{
+    text-align: center;
+    margin: 90px 15px 50px 10px;
+}
+#iletişim2 {
+    opacity: 0.9;
+    font-size: 20px;
+    font-weight: 400;
+  
+}
+#icon{
+    font-size: 15px;
+    color: #686bca;
+    margin: 3px;
+    
+}
+/* forms */
+.ortalama{
+   
+    height: 100vh;
+    place-items: center; 
+}
+.demo-form1 {
+    padding: 20px;
+    background-color: #e9e9f1;
+    border: 2px solid #bebed6;
+    width: 550px;
+    max-width: 100%;
+    
+    
+  }
+  
+  .demo-form1 input::placeholder,
+  .demo-form1 textarea::placeholder,
+  .demo-form1 select::placeholder {
+    opacity: 0.8;
+  }
+  
+  .demo-form1 textarea {
+    width: 100%;
+    height: 100px;
+  }
+  
+  .demo-form1{
+    padding: 10px 0;
+  }
+  
+  .demo-form1 .input {
+    background-color: #fff;
+    border: 1px solid #bebed6;
+    width: 100%;
+    height: 48px;
+    padding: 10px 15px;
+  }
+  
+  .demo-form1 input:not([type="radio"]) {
+    width: 100%;
+  }
+  
+  .demo-form1 label.f-title {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  
+  .demo-form1 .radio-label {
+    font-weight: 600;
+    font-size: 13px;
+  }
+  
+  .demo-form1 input[type="file"] {
+    padding-left: 0;
+  }
+  
+  .demo-form1 input[type="submit"] {
+    color: #fff;
+    border-color: transparent;
+    background-color: #5584c7;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 8px 15px;
+    transition: 0.3s ease all;
+  }
+  
+  .demo-form1 input[type="submit"]:hover {
+    background-color: #485eb7;
+  }
+                
+  /* iletişim footer */
+  footer{
+    background-color: #d7cece;
+  }
+.baslik{
+
+color: #00653d;
+
+}
+footer {
+background-color: #ffffff;
+color: #212020;
+padding: 40px 0;
+
+}
+.başlik{
+font-weight: 700;
+
+
+}
+.arma{
+color: #212020;
+
+padding: 5px;
+}
+
+footer a {
+text-decoration: none;
+color: #212020;
+margin: 0 15px;
+
+}
+.ikon ul li a{
+color: #1c1b1b;
+}
+
+footer a:hover {
+text-decoration: underline;
+}
+
+.footer-links {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+
+}
+
+.footer-links div {
+margin: 15px;
+text-align: center;
+
+}
+
+.footer-links div ul {
+list-style: none;
+padding: 0;
+}
+
+.footer-links div ul li {
+margin: 10px 0;
+
+}
+
+.social-icons a {
+margin: 0 10px;
+font-size: 20px;
+}
+
+.social-icons a:hover {
+color: #1db954;
+}
+
+.footer-bottom {
+text-align: center;
+margin-top: 20px;
+font-size: 14px;
+}
+
+@media (max-width: 768px) {
+.footer-links {
+  flex-direction: column;
+}
+}
+
+
+#zıplayan{
+  margin: 5px;
+  color: #485eb7;
+}
+#h5{
+  font-weight: 700;
+  padding: 9px;
+}
+#p-10{
+  opacity: 0.7;
+  padding: 5px;
+  text-align: center;
+}
+
+/* fiyatlandırma cards */
+
+.grow{
+  text-align: center;
+  margin: 105px;
+}
+
+#renk{
+  color: #86bbdc;
+}
+
+
+#buton{
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color:rgb(93, 93, 206);
+  color: #ffff;
+  letter-spacing: 2px;
+margin-left: 64px; 
+margin-top: 10px;
+margin-bottom: 10px;
+align-items: center;
+ padding: 10px;
+}
+
+#buton:hover{
+  background-color: #86bbdc;
+  transition: 0.5s;
+  cursor: pointer;
+  
+}
+#h3{
+  font-weight: 700;
+  margin: 3px 5px 7px 4px;
+  padding: 10px;
+  text-align: center;
+}
+#border{
+  border: 1px solid;
+  margin-top: 10px;
+  width: 100%;
+  height: 630px;
+  box-shadow:  0 8px 16px rgba(0, 0, 0, 0.2);;
+}
+.çizgi{
+  border-top: 2px solid #cbccd0 ;
+  margin: 40px 10px 10px 10px;
+}
+
+/* kampanyalar */
+
+
+.Güncel{
+  font-weight: 600;
+  margin: 85px 15px 20px 15px;
+  font-size: 54px;
+  text-align: center;
+}
+.satır{
+  text-align: center;
+  opacity: 0.5;
+}
+#a{
+  text-decoration: none;
+  font-weight: 800;
+  color: #3d3a3a;
+  padding: 7px;
+}
+.messi{
+  margin: 15px;
+}
+#ikinci-baslik{
+  font-weight: 800;
+  font-size: 45px;
+  text-align: left;
+  margin-top: 250px;
+  margin-left: 105px;
+}
+ /* kulüpler */
+ #verim{
+  text-align: center;
+  opacity: 0.7;
+ }
+ #büyük{
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+ }
+
+ /* hakkımızda */
+ #h6{
+  font-weight: 700;
+  margin: 150px 5px 7px 4px;
+  padding: 10px;
+  text-align: center;
+  font-size: 41px;
+ }
+ .profile{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; 
+  object-fit: cover;
+ }
+ .alan{
+  font-style: italic;
+ }
+
+
+ /* blogggg */
+
+
+ #öne{
+  margin-top: 45px;
+  margin-left: 150px;
+  font-weight: 700;
+ }
+ #gövde{
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.2);
+ }
+ .sağ{
+  margin-left: 80px;
+ }
+ #span{
+  margin-left: 100px;
+  margin-top: 30px;
+ }
+ .card-shodow{
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+ }
